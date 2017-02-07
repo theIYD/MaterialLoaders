@@ -122,6 +122,114 @@ div {
     animation: spin 2s linear infinite;
 }
 
+.loader-11 {
+    border: 8px solid #f3f3f3; /* Light grey */
+    border-top: 8px solid #8bc34a; /* Light-Green 500 */
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-right: 80px;
+    animation: spin 2s linear infinite;
+}
+
+.loader-12 {
+    border: 8px solid #f3f3f3; /* Light grey */
+    border-top: 8px solid #cddc39; /* Lime 500 */
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-right: 80px;
+    animation: spin 2s linear infinite;
+}
+
+.loader-13 {
+    border: 8px solid #f3f3f3; /* Light grey */
+    border-top: 8px solid #ffeb3b; /* Yellow 500 */
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-right: 80px;
+    animation: spin 2s linear infinite;
+}
+
+.loader-14 {
+    border: 8px solid #f3f3f3; /* Light grey */
+    border-top: 8px solid #ffc107; /* Amber 500 */
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-right: 80px;
+    animation: spin 2s linear infinite;
+}
+
+.loader-15 {
+    border: 8px solid #f3f3f3; /* Light grey */
+    border-top: 8px solid #ff9800; /* Orange 500 */
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-right: 80px;
+    animation: spin 2s linear infinite;
+}
+
+.loader-16 {
+    border: 8px solid #f3f3f3; /* Light grey */
+    border-top: 8px solid #ff5722; /* Deep Orange 500 */
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-right: 80px;
+    animation: spin 2s linear infinite;
+}
+
+.loader-17 {
+    border: 8px solid #f3f3f3; /* Light grey */
+    border-top: 8px solid #795548; /* Brown 500 */
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-right: 80px;
+    animation: spin 2s linear infinite;
+}
+
+.loader-18 {
+    border: 8px solid #f3f3f3; /* Light grey */
+    border-top: 8px solid #607d8b; /* Blue Grey 500 */
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-right: 80px;
+    animation: spin 2s linear infinite;
+}
+
+.loader-19 {
+    border: 8px solid #f3f3f3; /* Light grey */
+    border-top: 8px solid #000000; /* Black */
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-right: 80px;
+    animation: spin 2s linear infinite;
+}
+
 
 @keyframes spin {
     0% { transform: rotate(0deg); }
