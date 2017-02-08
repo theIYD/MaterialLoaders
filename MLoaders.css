@@ -1,45 +1,8 @@
-html, body {
-	font-family: 'Roboto', Helvetica, sans-serif;
-	width: 100%;
-	overflow-x: hidden;
-	margin-left: 15px;
-	padding: 0;
-	background: #fff;
-}
+/* Material Loaders Library */
 
-div {
-	display: inline-block;
-}
-
-h1 {
-	text-align: center;
-	color: #000;
-	font-family: 'Roboto', Helvetica, sans-serif;
-	font-size: 40px;
-	font-weight: 100;
-}
-
-hr{
-	width: 25%;
-	border: 1.5px solid #eeeeee;
-	border-radius: 10px;
-	margin-bottom: 50px;
-}
-
-p {
-	text-align: center;
-	font-weight: 700;
-	position: relative;
-	top: 20px;
-	font-style: italic;
-
-}
-.outer-box {
-	box-shadow: 3px 3px 7px 3px #bdbdbd;
-	padding: 50px;
-	margin: 30px;
-}
-
+/* Author: Idrees Dargahwala 
+   Created on 08/02/2017 */
+   
 .loader-1 {
     border: 8px solid #f3f3f3; /* Light grey */
     border-top: 8px solid #f44336; /* Red 500 */

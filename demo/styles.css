@@ -1,0 +1,126 @@
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Roboto', Helevetica, sans-serif;
+}
+.big-loader {
+    border: 20px solid #f3f3f3; /* Light grey */
+    border-top: 20px solid #f44336; /* Red 500 */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spinning 2s linear infinite;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 20vh;
+}
+
+.wrapper {
+    text-align: center;
+    position: relative;
+    top: 25vh;
+}
+
+h1 {
+    font-size: 42px;
+    font-family: 'Roboto', Helevetica, sans-serif;
+    font-weight: 100;
+    color: #000;
+}
+
+h1 span {
+    font-size: 42px;
+    font-family: 'Roboto', Helevetica, sans-serif;
+    font-weight: 900;
+    color: #2196f3;
+}
+
+hr {
+    width: 25%;
+    border: 1px solid #e0e0e0;
+}
+
+.wrap-buttons {
+    position: relative;
+    top: 20px;
+}
+
+.download {
+    background: #2196f3;
+    color: white;
+    border-radius: 10px;
+    padding: 15px 40px;
+    outline: none;
+    border: 2px solid #2196f3;
+    transition: background linear 200ms;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.source {
+    background: transparent;
+    border-radius: 10px;
+    border: 2px solid #2196f3;
+    padding: 15px 40px;
+    outline: none;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    color: #2196f3
+}
+
+.download:hover {
+    background: transparent;
+    color: #2196f3;
+    border: 1px solid #2196f3;
+}
+
+a {
+    margin: 0 5px;
+}
+
+@keyframes spinning {
+    0% { 
+        transform: rotate(0deg);
+        border-top: 40px solid #f44336; /* Red 500 */
+        border-bottom: 40px solid #e91e63;
+        border-right: 40px solid #9c27b0;
+        border-left: 40px solid #999;
+    }
+
+    25% {
+        transform: rotate(90deg);
+        border-top: 40px solid #3f51b5; /* Indigo 500 */
+        border-bottom: 40px solid #2196f3;
+        border-right: 40px solid #03a9f4;
+        border-left: 40px solid #00bcd4;
+    }
+
+    50% {
+        transform: rotate(180deg);
+        border-top: 40px solid #009688; /* Teal 500 */
+        border-bottom: 40px solid #4caf50;
+        border-right: 40px solid #8bc34a;
+        border-left: 40px solid #cddc39;
+    }
+
+    75% {
+        transform: rotate(270deg);
+        border-top: 40px solid #ffeb3b; /* Yellow 500 */
+        border-bottom: 40px solid #ff9800;
+        border-right: 40px solid #ff5722;
+        border-left: 40px solid #795548;
+    }
+
+    100% {
+        transform: rotate(360deg); 
+        border-top: 40px solid #795548; /* Brown 500 */
+        border-bottom: 40px solid #607d8b;
+        border-right: 40px solid #000000;
+        border-left: 40px solid #999;
+    }
+}
