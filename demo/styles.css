@@ -4,7 +4,9 @@ html, body {
     padding: 0;
     height: 100%;
     font-family: 'Roboto', Helevetica, sans-serif;
+    background: url(bg.jpg) repeat;
 }
+
 .big-loader {
     border: 20px solid #f3f3f3; /* Light grey */
     border-top: 20px solid #f44336; /* Red 500 */
@@ -39,8 +41,15 @@ h1 span {
 }
 
 hr {
-    width: 25%;
+    width: 27%;
     border: 1px solid #e0e0e0;
+}
+
+p {
+    color: #999;
+    font-style: italic;
+    font-size: 22px;
+    font-weight: 300;
 }
 
 .wrap-buttons {
