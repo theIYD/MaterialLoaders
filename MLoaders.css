@@ -3,6 +3,7 @@
 /* Author: Idrees Dargahwala 
    Created on 08/02/2017 */
 
+/* Ring */
 .red-500 {
     border: 8px solid #f3f3f3; /* Light grey */
     border-top: 8px solid #f44336; /* Red 500 */
@@ -174,8 +175,251 @@
     animation: spin 2s linear infinite;
 }
 
-
 @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
+}
+
+/* Square */
+
+.s-red-500 {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    background: #f44336;
+    animation: square-anim 3s ease-in-out infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.s-pink-500 {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    background: #e91e63;
+    animation: square-anim 3s ease-in-out infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.s-purple-500 {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    background: #9c27b0;
+    animation: square-anim 3s ease-in-out infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.s-deep-purple-500 {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    background: #673ab7;
+    animation: square-anim 3s ease-in-out infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.s-indigo-500 {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    background: #3f51b5;
+    animation: square-anim 3s ease-in-out infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.s-blue-500 {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    background: #2196f3;
+    animation: square-anim 3s ease-in-out infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.s-light-blue-500 {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    background: #03a9f4;
+    animation: square-anim 3s ease-in-out infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.s-cyan-500 {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    background: #00bcd4;
+    animation: square-anim 3s ease-in-out infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.s-teal-500 {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    background: #009688;
+    animation: square-anim 3s ease-in-out infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.s-green-500 {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    background: #4caf50;
+    animation: square-anim 3s ease-in-out infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.s-light-green-500 {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    background: #8bc34a;
+    animation: square-anim 3s ease-in-out infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.s-lime-500 {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    background: #cddc39;
+    animation: square-anim 3s ease-in-out infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.s-yellow-500 {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    background: #ffeb3b;
+    animation: square-anim 3s ease-in-out infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.s-amber-500 {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    background: #ffc107;
+    animation: square-anim 3s ease-in-out infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.s-orange-500 {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    background: #ff9800;
+    animation: square-anim 3s ease-in-out infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.s-deep-orange-500 {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    background: #ff5722;
+    animation: square-anim 3s ease-in-out infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.s-brown-500 {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    background: #795548;
+    animation: square-anim 3s ease-in-out infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.s-blue-grey-500 {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    background: #607d8b;
+    animation: square-anim 3s ease-in-out infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.s-black {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    background: #000000;
+    animation: square-anim 3s ease-in-out infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.square-inside {
+    width: 15px;
+    height: 15px;
+    margin: 0 auto;
+    background: #fff;
+    animation: square-anim 3s ease-in-out infinite;
+}
+
+
+@keyframes square-anim {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(90deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    75% {
+        transform: rotate(270deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+
+
 }
