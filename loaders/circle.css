@@ -1,0 +1,251 @@
+/* Circle */ 
+
+.c-red-500 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #f44336;
+    animation: circle-shape 800ms ease-in-out infinite;
+    position: relative;
+    animation-direction: alternate;
+}
+
+.c-pink-500 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #e91e63;
+    animation: circle-shape 800ms ease-in-out infinite;
+    position: relative;
+    animation-direction: alternate;
+}
+
+.c-purple-500 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #9c27b0;
+    animation: circle-shape 800ms ease-in-out infinite;
+    position: relative;
+    animation-direction: alternate;
+}
+
+.c-deep-purple-500 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #673ab7;
+    animation: circle-shape 800ms ease-in-out infinite;
+    position: relative;
+    animation-direction: alternate;
+}
+
+.c-indigo-500 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #3f51b5;
+    animation: circle-shape 800ms ease-in-out infinite;
+    position: relative;
+    animation-direction: alternate;
+}
+
+.c-blue-500 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #2196f3;
+    animation: circle-shape 800ms ease-in-out infinite;
+    position: relative;
+    animation-direction: alternate;
+}
+
+.c-light-blue-500 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #03a9f4;
+    animation: circle-shape 800ms ease-in-out infinite;
+    position: relative;
+    animation-direction: alternate;
+}
+
+.c-cyan-500 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #00bcd4;
+    animation: circle-shape 800ms ease-in-out infinite;
+    position: relative;
+    animation-direction: alternate;
+}
+
+.c-teal-500 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #009688;
+    animation: circle-shape 800ms ease-in-out infinite;
+    position: relative;
+    animation-direction: alternate;
+}
+
+.c-green-500 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #4caf50;
+    animation: circle-shape 800ms ease-in-out infinite;
+    position: relative;
+    animation-direction: alternate;
+}
+
+.c-light-green-500 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #8bc34a;
+    animation: circle-shape 800ms ease-in-out infinite;
+    position: relative;
+    animation-direction: alternate;
+}
+
+.c-lime-500 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #cddc39;
+    animation: circle-shape 800ms ease-in-out infinite;
+    position: relative;
+    animation-direction: alternate;
+}
+
+.c-yellow-500 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #ffeb3b;
+    animation: circle-shape 800ms ease-in-out infinite;
+    position: relative;
+    animation-direction: alternate;
+}
+
+.c-amber-500 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #ffc107;
+    animation: circle-shape 800ms ease-in-out infinite;
+    position: relative;
+    animation-direction: alternate;
+}
+
+.c-orange-500 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #ff9800;
+    animation: circle-shape 800ms ease-in-out infinite;
+    position: relative;
+    animation-direction: alternate;
+}
+
+.c-deep-orange-500 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #ff5722;
+    animation: circle-shape 800ms ease-in-out infinite;
+    position: relative;
+    animation-direction: alternate;
+}
+
+.c-brown-500 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #795548;
+    animation: circle-shape 800ms ease-in-out infinite;
+    position: relative;
+    animation-direction: alternate;
+}
+
+.c-blue-grey-500 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #607d8b;
+    animation: circle-shape 800ms ease-in-out infinite;
+    position: relative;
+    animation-direction: alternate;
+}
+
+.c-black {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #000000;
+    animation: circle-shape 800ms ease-in-out infinite;
+    position: relative;
+    animation-direction: alternate;
+}
+
+@-webkit-keyframes circle-shape {
+    0% {
+        left: 0px;
+        right: 0px;
+        transform: translate(0);
+    }
+
+    50% {
+        left: 0px;
+        right: 10px;
+        transform: translate(30px);
+    }
+
+    100% {
+        right: 10px;
+        left: 0px;
+        transform: translate(0);
+    }
+}
+
+@-moz-keyframes circle-shape {
+    0% {
+        left: 0px;
+        right: 0px;
+        transform: translate(0);
+    }
+
+    50% {
+        left: 0px;
+        right: 10px;
+        transform: translate(30px);
+    }
+
+    100% {
+        right: 10px;
+        left: 0px;
+        transform: translate(0);
+    }
+}
+
+@keyframes circle-shape {
+    0% {
+        left: 0px;
+        right: 0px;
+        transform: translate(0);
+    }
+
+    50% {
+        left: 0px;
+        right: 10px;
+        transform: translate(30px);
+    }
+
+    100% {
+        right: 10px;
+        left: 0px;
+        transform: translate(0);
+    }
+}
