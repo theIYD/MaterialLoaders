@@ -4,7 +4,7 @@
    Created on 08/02/2017 */
 
 /* Ring */
-.red-500 {
+.r-red-500 {
     border: 8px solid #f3f3f3; /* Light grey */
     border-top: 8px solid #f44336; /* Red 500 */
     border-radius: 50%;
@@ -13,7 +13,7 @@
     animation: spin 2s linear infinite;
 }
 
-.pink-500 {
+.r-pink-500 {
     border: 8px solid #f3f3f3; /* Light grey */
     border-top: 8px solid #e91e63; /* Pink 500 */
     border-radius: 50%;
@@ -22,7 +22,7 @@
     animation: spin 2s linear infinite;
 }
 
-.purple-500 {
+.r-purple-500 {
     border: 8px solid #f3f3f3; /* Light grey */
     border-top: 8px solid #9c27b0; /* Purple 500 */
     border-radius: 50%;
@@ -31,7 +31,7 @@
     animation: spin 2s linear infinite;
 }
 
-.deep-purple-500 {
+.r-deep-purple-500 {
     border: 8px solid #f3f3f3; /* Light grey */
     border-top: 8px solid #673ab7; /* Deep Purple 500 */
     border-radius: 50%;
@@ -40,7 +40,7 @@
     animation: spin 2s linear infinite;
 }
 
-.indigo-500 {
+.r-indigo-500 {
     border: 8px solid #f3f3f3; /* Light grey */
     border-top: 8px solid #3f51b5; /* Indigo 500 */
     border-radius: 50%;
@@ -49,7 +49,7 @@
     animation: spin 2s linear infinite;
 }
 
-.blue-500 {
+.r-blue-500 {
     border: 8px solid #f3f3f3; /* Light grey */
     border-top: 8px solid #2196f3; /* Blue 500 */
     border-radius: 50%;
@@ -58,7 +58,7 @@
     animation: spin 2s linear infinite;
 }
 
-.light-blue-500 {
+.r-light-blue-500 {
     border: 8px solid #f3f3f3; /* Light grey */
     border-top: 8px solid #03a9f4; /* Light-Blue 500 */
     border-radius: 50%;
@@ -67,7 +67,7 @@
     animation: spin 2s linear infinite;
 }
 
-.cyan-500 {
+.r-cyan-500 {
     border: 8px solid #f3f3f3; /* Light grey */
     border-top: 8px solid #00bcd4; /* Cyan 500 */
     border-radius: 50%;
@@ -76,7 +76,7 @@
     animation: spin 2s linear infinite;
 }
 
-.teal-500 {
+.r-teal-500 {
     border: 8px solid #f3f3f3; /* Light grey */
     border-top: 8px solid #009688; /* Teal 500 */
     border-radius: 50%;
@@ -85,7 +85,7 @@
     animation: spin 2s linear infinite;
 }
 
-.green-500 {
+.r-green-500 {
     border: 8px solid #f3f3f3; /* Light grey */
     border-top: 8px solid #4caf50; /* Green 500 */
     border-radius: 50%;
@@ -94,7 +94,7 @@
     animation: spin 2s linear infinite;
 }
 
-.light-green-500 {
+.r-light-green-500 {
     border: 8px solid #f3f3f3; /* Light grey */
     border-top: 8px solid #8bc34a; /* Light-Green 500 */
     border-radius: 50%;
@@ -103,7 +103,7 @@
     animation: spin 2s linear infinite;
 }
 
-.lime-500 {
+.r-lime-500 {
     border: 8px solid #f3f3f3; /* Light grey */
     border-top: 8px solid #cddc39; /* Lime 500 */
     border-radius: 50%;
@@ -112,7 +112,7 @@
     animation: spin 2s linear infinite;
 }
 
-.yellow-500 {
+.r-yellow-500 {
     border: 8px solid #f3f3f3; /* Light grey */
     border-top: 8px solid #ffeb3b; /* Yellow 500 */
     border-radius: 50%;
@@ -121,7 +121,7 @@
     animation: spin 2s linear infinite;
 }
 
-.amber-500 {
+.r-amber-500 {
     border: 8px solid #f3f3f3; /* Light grey */
     border-top: 8px solid #ffc107; /* Amber 500 */
     border-radius: 50%;
@@ -130,7 +130,7 @@
     animation: spin 2s linear infinite;
 }
 
-.orange-500 {
+.r-orange-500 {
     border: 8px solid #f3f3f3; /* Light grey */
     border-top: 8px solid #ff9800; /* Orange 500 */
     border-radius: 50%;
@@ -139,7 +139,7 @@
     animation: spin 2s linear infinite;
 }
 
-.deep-orange-500 {
+.r-deep-orange-500 {
     border: 8px solid #f3f3f3; /* Light grey */
     border-top: 8px solid #ff5722; /* Deep Orange 500 */
     border-radius: 50%;
@@ -148,7 +148,7 @@
     animation: spin 2s linear infinite;
 }
 
-.brown-500 {
+.r-brown-500 {
     border: 8px solid #f3f3f3; /* Light grey */
     border-top: 8px solid #795548; /* Brown 500 */
     border-radius: 50%;
@@ -157,7 +157,7 @@
     animation: spin 2s linear infinite;
 }
 
-.blue-grey-500 {
+.r-blue-grey-500 {
     border: 8px solid #f3f3f3; /* Light grey */
     border-top: 8px solid #607d8b; /* Blue Grey 500 */
     border-radius: 50%;
@@ -166,7 +166,7 @@
     animation: spin 2s linear infinite;
 }
 
-.black {
+.r-black {
     border: 8px solid #f3f3f3; /* Light grey */
     border-top: 8px solid #000000; /* Black */
     border-radius: 50%;
