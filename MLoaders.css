@@ -700,6 +700,46 @@
     animation-direction: alternate;
 }
 
+@-webkit-keyframes circle-shape {
+    0% {
+        left: 0px;
+        right: 0px;
+        transform: translate(0);
+    }
+
+    50% {
+        left: 0px;
+        right: 10px;
+        transform: translate(30px);
+    }
+
+    100% {
+        right: 10px;
+        left: 0px;
+        transform: translate(0);
+    }
+}
+
+@-moz-keyframes circle-shape {
+    0% {
+        left: 0px;
+        right: 0px;
+        transform: translate(0);
+    }
+
+    50% {
+        left: 0px;
+        right: 10px;
+        transform: translate(30px);
+    }
+
+    100% {
+        right: 10px;
+        left: 0px;
+        transform: translate(0);
+    }
+}
+
 @keyframes circle-shape {
     0% {
         left: 0px;
@@ -717,5 +757,153 @@
         right: 10px;
         left: 0px;
         transform: translate(0);
+    }
+}
+
+/* Colorful Square */
+.s-colorful {
+    width: 30px;
+    height: 30px;
+    animation: squarecolorful 1.6s linear infinite;
+}
+
+@-webkit-keyframes squarecolorful {
+    0% {
+        border-top: 10px solid #2196f3;
+        border-left: transparent;
+        border-bottom: transparent;
+        border-right: transparent;
+        background: #81d4fa;
+        transform: rotate(0deg);
+    }
+
+    25% {
+        border-top: transparent;
+        border-left: transparent;
+        border-bottom: transparent;
+        border-right: 10px solid #d32f2f;
+        background: #80cbc4;
+        transform: rotate(90deg);
+    }
+
+    50% {
+        border-top: transparent;
+        border-left: transparent;
+        border-bottom: 10px solid #d32f2f;
+        border-right: transparent;
+        background: #ef9a9a;
+        transform: rotate(180deg);
+    }
+
+    75% {
+        border-top: transparent;
+        border-left: 10px solid #fff59d;
+        border-bottom: transparent;
+        border-right: transparent;
+        background: #fbc02d;
+        transform: rotate(270deg);
+    }
+
+    100% {
+        border-top: 10px solid #2196f3;
+        border-left: transparent;
+        border-bottom: transparent;
+        border-right: transparent;
+        background: #81d4fa;
+        transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes squarecolorful {
+    0% {
+        border-top: 10px solid #2196f3;
+        border-left: transparent;
+        border-bottom: transparent;
+        border-right: transparent;
+        background: #81d4fa;
+        transform: rotate(0deg);
+    }
+
+    25% {
+        border-top: transparent;
+        border-left: transparent;
+        border-bottom: transparent;
+        border-right: 10px solid #d32f2f;
+        background: #80cbc4;
+        transform: rotate(90deg);
+    }
+
+    50% {
+        border-top: transparent;
+        border-left: transparent;
+        border-bottom: 10px solid #d32f2f;
+        border-right: transparent;
+        background: #ef9a9a;
+        transform: rotate(180deg);
+    }
+
+    75% {
+        border-top: transparent;
+        border-left: 10px solid #fff59d;
+        border-bottom: transparent;
+        border-right: transparent;
+        background: #fbc02d;
+        transform: rotate(270deg);
+    }
+
+    100% {
+        border-top: 10px solid #2196f3;
+        border-left: transparent;
+        border-bottom: transparent;
+        border-right: transparent;
+        background: #81d4fa;
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes squarecolorful {
+    0% {
+        border-top: 10px solid #2196f3;
+        border-left: transparent;
+        border-bottom: transparent;
+        border-right: transparent;
+        background: #81d4fa;
+        transform: rotate(0deg);
+    }
+
+    25% {
+        border-top: transparent;
+        border-left: transparent;
+        border-bottom: transparent;
+        border-right: 10px solid #d32f2f;
+        background: #80cbc4;
+        transform: rotate(90deg);
+    }
+
+    50% {
+        border-top: transparent;
+        border-left: transparent;
+        border-bottom: 10px solid #d32f2f;
+        border-right: transparent;
+        background: #ef9a9a;
+        transform: rotate(180deg);
+    }
+
+    75% {
+        border-top: transparent;
+        border-left: 10px solid #fff59d;
+        border-bottom: transparent;
+        border-right: transparent;
+        background: #fbc02d;
+        transform: rotate(270deg);
+    }
+
+    100% {
+        border-top: 10px solid #2196f3;
+        border-left: transparent;
+        border-bottom: transparent;
+        border-right: transparent;
+        background: #81d4fa;
+        transform: rotate(360deg);
     }
 }
