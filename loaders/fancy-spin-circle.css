@@ -1,6 +1,18 @@
-.fancy-spin-circle {
-    width: 50px;
-    height: 50px;
+.mloader {
+    width:48px;
+    height:48px;
+    display:inline-block;
+    box-sizing:border-box;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+/* Fancy Circle */
+  .fancy-circle {
     position: fixed;
     top: 0;
     bottom: 0;
@@ -9,9 +21,9 @@
     margin: auto;
 }
 
-.inner {
-    height: 50px;
-    width: 50px;
+.fancy-circle span {
+    height: 48px;
+    width: 48px;
     display: block;
     position: absolute;
     top: 0;
@@ -22,12 +34,12 @@
     box-sizing: border-box;
 }
 
-.inner:nth-child(1) {
+.fancy-circle span:nth-child(1) {
     border-top-color: red;
     animation: rotation 1s ease-in-out infinite;
 }
 
-.inner:nth-child(2) {
+.fancy-circle span:nth-child(2) {
     border-bottom-color: black;
     animation: rotation 1s ease-in-out infinite;
 }
@@ -41,6 +53,8 @@
         transform: rotate(360deg);
     }
 
+}
+
 @-moz-keyframes rotation {
     0% {
         transform: rotate(0deg);
@@ -49,6 +63,8 @@
     100% {
         transform: rotate(360deg);
     }
+
+}
 
 @keyframes rotation {
     0% {

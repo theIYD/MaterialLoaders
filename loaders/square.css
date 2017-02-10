@@ -1,9 +1,19 @@
+.mloader {
+    width:48px;
+    height:48px;
+    display:inline-block;
+    box-sizing:border-box;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
 /* Square */
 
 .s-red-500 {
-    width: 40px;
-    height: 40px;
-    margin: 0 auto;
     background: #f44336;
     animation: square-anim 3s ease-in-out infinite;
     display: flex;
@@ -12,9 +22,6 @@
 }
 
 .s-pink-500 {
-    width: 40px;
-    height: 40px;
-    margin: 0 auto;
     background: #e91e63;
     animation: square-anim 3s ease-in-out infinite;
     display: flex;
@@ -23,9 +30,6 @@
 }
 
 .s-purple-500 {
-    width: 40px;
-    height: 40px;
-    margin: 0 auto;
     background: #9c27b0;
     animation: square-anim 3s ease-in-out infinite;
     display: flex;
@@ -34,9 +38,6 @@
 }
 
 .s-deep-purple-500 {
-    width: 40px;
-    height: 40px;
-    margin: 0 auto;
     background: #673ab7;
     animation: square-anim 3s ease-in-out infinite;
     display: flex;
@@ -45,9 +46,6 @@
 }
 
 .s-indigo-500 {
-    width: 40px;
-    height: 40px;
-    margin: 0 auto;
     background: #3f51b5;
     animation: square-anim 3s ease-in-out infinite;
     display: flex;
@@ -56,9 +54,6 @@
 }
 
 .s-blue-500 {
-    width: 40px;
-    height: 40px;
-    margin: 0 auto;
     background: #2196f3;
     animation: square-anim 3s ease-in-out infinite;
     display: flex;
@@ -67,9 +62,6 @@
 }
 
 .s-light-blue-500 {
-    width: 40px;
-    height: 40px;
-    margin: 0 auto;
     background: #03a9f4;
     animation: square-anim 3s ease-in-out infinite;
     display: flex;
@@ -78,9 +70,6 @@
 }
 
 .s-cyan-500 {
-    width: 40px;
-    height: 40px;
-    margin: 0 auto;
     background: #00bcd4;
     animation: square-anim 3s ease-in-out infinite;
     display: flex;
@@ -89,9 +78,6 @@
 }
 
 .s-teal-500 {
-    width: 40px;
-    height: 40px;
-    margin: 0 auto;
     background: #009688;
     animation: square-anim 3s ease-in-out infinite;
     display: flex;
@@ -100,9 +86,6 @@
 }
 
 .s-green-500 {
-    width: 40px;
-    height: 40px;
-    margin: 0 auto;
     background: #4caf50;
     animation: square-anim 3s ease-in-out infinite;
     display: flex;
@@ -111,9 +94,6 @@
 }
 
 .s-light-green-500 {
-    width: 40px;
-    height: 40px;
-    margin: 0 auto;
     background: #8bc34a;
     animation: square-anim 3s ease-in-out infinite;
     display: flex;
@@ -122,9 +102,6 @@
 }
 
 .s-lime-500 {
-    width: 40px;
-    height: 40px;
-    margin: 0 auto;
     background: #cddc39;
     animation: square-anim 3s ease-in-out infinite;
     display: flex;
@@ -133,9 +110,6 @@
 }
 
 .s-yellow-500 {
-    width: 40px;
-    height: 40px;
-    margin: 0 auto;
     background: #ffeb3b;
     animation: square-anim 3s ease-in-out infinite;
     display: flex;
@@ -144,9 +118,6 @@
 }
 
 .s-amber-500 {
-    width: 40px;
-    height: 40px;
-    margin: 0 auto;
     background: #ffc107;
     animation: square-anim 3s ease-in-out infinite;
     display: flex;
@@ -155,9 +126,6 @@
 }
 
 .s-orange-500 {
-    width: 40px;
-    height: 40px;
-    margin: 0 auto;
     background: #ff9800;
     animation: square-anim 3s ease-in-out infinite;
     display: flex;
@@ -166,9 +134,6 @@
 }
 
 .s-deep-orange-500 {
-    width: 40px;
-    height: 40px;
-    margin: 0 auto;
     background: #ff5722;
     animation: square-anim 3s ease-in-out infinite;
     display: flex;
@@ -177,9 +142,6 @@
 }
 
 .s-brown-500 {
-    width: 40px;
-    height: 40px;
-    margin: 0 auto;
     background: #795548;
     animation: square-anim 3s ease-in-out infinite;
     display: flex;
@@ -188,9 +150,6 @@
 }
 
 .s-blue-grey-500 {
-    width: 40px;
-    height: 40px;
-    margin: 0 auto;
     background: #607d8b;
     animation: square-anim 3s ease-in-out infinite;
     display: flex;
@@ -199,9 +158,6 @@
 }
 
 .s-black {
-    width: 40px;
-    height: 40px;
-    margin: 0 auto;
     background: #000000;
     animation: square-anim 3s ease-in-out infinite;
     display: flex;
