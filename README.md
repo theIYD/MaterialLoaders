@@ -121,6 +121,18 @@ having a fill of material colors.
   ```html
   <div class="mloader timer"></div>
   ```
+##### Dotted Circle
+```html
+  <div class="mloader circle-dot"></div>
+  ```
+##### Ring Evolution
+```html
+  <div class="mloader e-ring"></div>
+  ```
+
+##### Sticks
+```html
+  <div class="sticks"></div>
+  ```
   
-* Lastly, enjoy the loaders and spinners. As a token of appreciation, a **star** to this repository will help me to bring you more libraries.
-    
+ * Lastly, enjoy the loaders and spinners. As a token of appreciation, a **star** to this repository will help me to bring you more libraries.
