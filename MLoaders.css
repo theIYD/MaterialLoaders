@@ -1051,6 +1051,7 @@
     }
 }
 
+/* Dotted Circle */
 .circle-dot {
     background: #000;
     animation: c-dotted 1s cubic-bezier(.46,.03,.52,.96) infinite;
@@ -1093,9 +1094,8 @@
     }
 }
 
+/* Ring Evolution */
 .e-ring {
-    width: 48px;
-    height: 48px;
     border: 4px solid #0052ec;
     border-radius: 50%;
     position: relative;
@@ -1157,6 +1157,7 @@
     }
 }
 
+/* Sticks */
 .sticks {
   width: 10px;
   height: 48px;
@@ -1170,20 +1171,26 @@
   right: 0;
   left: 0;
   bottom: 0;
-   }
-  .sticks:after, .sticks:before {
+}
+
+.sticks:after, .sticks:before {
     content: '';
     position: absolute;
     width: 10px;
     height: 48px;
     background: #009688;
-    animation: sticks-anim 1s ease-in-out infinite; }
-  .sticks:before {
+    animation: sticks-anim 1s ease-in-out infinite; 
+}
+
+.sticks:before {
     right: 18px;
-    animation-delay: 0.3s; }
-  .sticks:after {
+    animation-delay: 0.3s;
+}
+
+.sticks:after {
     left: 18px;
-    animation-delay: 0.8s; }
+    animation-delay: 0.8s; 
+}
 
 @-webkit-keyframes sticks-anim {
   0%, 100% {

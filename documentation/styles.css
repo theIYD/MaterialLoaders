@@ -1,3 +1,6 @@
+* {
+        box-sizing: content-box !important;
+}
 html, body {
     width: 100%;
     margin: 0;
@@ -18,78 +21,6 @@ html, body {
     margin: 0 auto;
     position: relative;
     top: 20vh;
-}
-
-.wrapper {
-    text-align: center;
-    position: relative;
-    top: 25vh;
-}
-
-h1 {
-    font-size: 42px;
-    font-family: 'Roboto', Helevetica, sans-serif;
-    font-weight: 100;
-    color: #000;
-}
-
-h1 span {
-    font-size: 42px;
-    font-family: 'Roboto', Helevetica, sans-serif;
-    font-weight: 900;
-    color: #2196f3;
-}
-
-hr {
-    width: 27%;
-    border: 1px solid #e0e0e0;
-}
-
-p {
-    color: #999;
-    font-style: italic;
-    font-size: 22px;
-    font-weight: 300;
-}
-
-.wrap-buttons {
-    position: relative;
-    top: 20px;
-}
-
-.download {
-    background: #2196f3;
-    color: white;
-    border-radius: 10px;
-    padding: 15px 40px;
-    outline: none;
-    border: 2px solid #2196f3;
-    transition: background linear 200ms;
-    text-align: center;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.source {
-    background: transparent;
-    border-radius: 10px;
-    border: 2px solid #2196f3;
-    padding: 15px 40px;
-    outline: none;
-    text-align: center;
-    font-weight: bold;
-    cursor: pointer;
-    color: #2196f3
-}
-
-.download:hover {
-    background: transparent;
-    color: #2196f3;
-    border: 1px solid #2196f3;
-}
-
-a {
-    margin: 0 5px;
 }
 
 @keyframes spinning {
@@ -132,4 +63,12 @@ a {
         border-right: 40px solid #000000;
         border-left: 40px solid #999;
     }
+}
+
+.wrapper-box {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
