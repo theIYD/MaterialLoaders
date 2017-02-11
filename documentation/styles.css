@@ -1,74 +1,174 @@
 * {
-        box-sizing: content-box !important;
-}
-html, body {
-    width: 100%;
     margin: 0;
     padding: 0;
-    height: 100%;
-    font-family: 'Roboto', Helevetica, sans-serif;
-    background: url(bg.jpg) repeat;
+    box-sizing: border-box;
+    text-align: center;
 }
 
-.big-loader {
-    border: 20px solid #f3f3f3; /* Light grey */
-    border-top: 20px solid #f44336; /* Red 500 */
-    border-radius: 50%;
-    width: 120px;
-    height: 120px;
-    animation: spinning 2s linear infinite;
-    display: block;
+html, body {
+    min-width: 360px;
+    background: url(photography.png) repeat;
+    clear: both;
+}
+
+header {
+    padding: 25vh 5vh 15vh 5vh;
+    position: relative;
+    top: -20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.container {
+    width: 960px;
+    background: #fff;
+    margin: 0 auto;
+    box-shadow: 1px 1px 20px 0.5px #000;
+    position: relative;
+    top: 50px;
+}
+
+.logo {
+    position: relative;
+    top: -60px;
+}
+
+.divide {
+    width: 23%;
+    border: 1px solid #e0e0e0;
     margin: 0 auto;
     position: relative;
-    top: 20vh;
+    top: -10px;
 }
 
-@keyframes spinning {
-    0% { 
-        transform: rotate(0deg);
-        border-top: 40px solid #f44336; /* Red 500 */
-        border-bottom: 40px solid #e91e63;
-        border-right: 40px solid #9c27b0;
-        border-left: 40px solid #999;
-    }
-
-    25% {
-        transform: rotate(90deg);
-        border-top: 40px solid #3f51b5; /* Indigo 500 */
-        border-bottom: 40px solid #2196f3;
-        border-right: 40px solid #03a9f4;
-        border-left: 40px solid #00bcd4;
-    }
-
-    50% {
-        transform: rotate(180deg);
-        border-top: 40px solid #009688; /* Teal 500 */
-        border-bottom: 40px solid #4caf50;
-        border-right: 40px solid #8bc34a;
-        border-left: 40px solid #cddc39;
-    }
-
-    75% {
-        transform: rotate(270deg);
-        border-top: 40px solid #ffeb3b; /* Yellow 500 */
-        border-bottom: 40px solid #ff9800;
-        border-right: 40px solid #ff5722;
-        border-left: 40px solid #795548;
-    }
-
-    100% {
-        transform: rotate(360deg); 
-        border-top: 40px solid #795548; /* Brown 500 */
-        border-bottom: 40px solid #607d8b;
-        border-right: 40px solid #000000;
-        border-left: 40px solid #999;
-    }
+.division {
+    width: 5%;
+    border: 3px solid #fff;
+    margin: 0 auto;
+    position: relative;
+    top: -30px;
+    border-radius: 50px;
 }
 
-.wrapper-box {
+.title, .sub, .title-examples {
+    font-family: 'Roboto', Helvetica, sans-serif;
+}
+
+.title {
+    font-size: 40px;
+    color: #000;
+    font-weight: 100;
+    position: relative;
+    top: -25px;
+}
+
+.sub {
+    font-style: italic;
+    font-size: 20px;
+    color: #bdbdbd;
+    font-weight: 400;
+    margin-top: 20px
+}
+
+.title span {
+    color: #2196f3;
+    font-weight: 900;
+}
+
+.title-examples {
+    color: #fff;
+    font-weight: 700;
+    position: relative;
+    top: -40px;
+    letter-spacing: .5px;
+}
+
+.wrap-buttons {
+    margin-top: 30px;
+}
+
+.download {
+     background: #2196f3;
+     color: white;
+     border-radius: 10px;
+     padding: 15px 40px;
+     outline: none;
+     border: 2px solid #2196f3;
+     transition: background linear 200ms;
+     text-align: center;
+     font-weight: bold;
+     cursor: pointer;
+ }
+ 
+ .source {
+     background: transparent;
+     border-radius: 10px;
+     border: 2px solid #2196f3;
+     padding: 15px 40px;
+     outline: none;
+     text-align: center;
+     font-weight: bold;
+     cursor: pointer;
+     color: #2196f3
+ }
+ 
+ .download:hover {
+     background: transparent;
+     color: #2196f3;
+     border: 1px solid #2196f3;
+}
+
+.wrap-gh-star {
+    margin-top: 20px;
+}
+
+.contain {
+    width: 630px;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+    top: 20px;
+}
+
+.spinner {
+    background: #fff;
     width: 200px;
     height: 200px;
+    float: left;
+    margin: 5px;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 1px 0.5px 7px 1px #000;
+}
+
+hr{
+    border: 1px solid #eee;
+}
+
+.examples {
+    padding: 15vh 3vh;
+    background: #2196f3;
+}
+
+@media screen and (max-width: 768px) {
+
+    .examples {
+        overflow: hidden;
+    }
+
+    .contain {
+        overflow: hidden;
+    }
+
+    .spinner {
+        float: left;
+    }
+
+
 }
