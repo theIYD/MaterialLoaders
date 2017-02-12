@@ -135,4 +135,11 @@ having a fill of material colors.
   <div class="sticks"></div>
   ```
   
+##### Fill-Circle
+```html
+  <div class="mloader fill-circle">
+     <span></span>
+  </div>
+  ```
+  
  * Lastly, enjoy the loaders and spinners. As a token of appreciation, a **star** to this repository will help me to bring you more libraries.
