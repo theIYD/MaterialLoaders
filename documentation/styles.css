@@ -3,12 +3,13 @@
     padding: 0;
     box-sizing: border-box;
     text-align: center;
+    font-family: 'Roboto', Helvetica, sans-serif;
 }
 
 html, body {
     min-width: 360px;
     background: url(photography.png) repeat;
-    clear: both;
+    overflow-y: visible;
 }
 
 header {
@@ -154,21 +155,73 @@ hr{
 .examples {
     padding: 15vh 3vh;
     background: #2196f3;
+    width: 100%;
+}
+
+footer {
+    background: #fff;
+    padding: 30px 0;
+}
+
+.copyright {
+    text-align: left;
+    color: #bdbdbd;
+    margin: 10px 0 0 20px;
+}
+
+.footer-content{
+    text-align: center;
+    color: #bdbdbd;
+    font-size: 13px;
+    font-weight: 900;
+    letter-spacing: 0.3px;
+}
+
+footer a {
+    text-decoration: none;
+    outline: none;
+    color: #2196f3;
+}
+
+footer i {
+    text-align: right;
 }
 
 @media screen and (max-width: 768px) {
 
     .examples {
-        overflow: hidden;
+        padding: 8vh 0 8vh 0;
+    }
+
+    .title-examples {
+        top: -10px;
+    }
+
+    .container {
+        width: 100%;
+        top: 0;
+        position: relative;
     }
 
     .contain {
-        overflow: hidden;
+        width: 100vw;
     }
 
     .spinner {
-        float: left;
+        width: 90vw;
+        margin: 1vh 5vw;
     }
 
+    .title {
+        font-size: 30px;
+    }
 
+    .sub {
+        font-size: 16px;
+    }
+
+    .division {
+        top: -5px;
+        width: 8%;
+    }
 }
