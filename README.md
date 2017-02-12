@@ -92,7 +92,9 @@ having a fill of material colors.
     
 ##### Square
   ```html
-  <div class="mloader s-red-500"></div>
+  <div class="mloader s-red-500">
+    <div class="square-inside"></div>
+  </div>
   ```
   
   * Classes of circle are :- 
