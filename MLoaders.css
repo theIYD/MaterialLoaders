@@ -755,6 +755,8 @@
   background: transparent;
   border-radius: 50%;
   display: inline-block;
+  position: relative;
+  left: -10px;
 }
 
 .bouncy:after, .bouncy:before {
@@ -1210,4 +1212,56 @@
     box-shadow: 0 0 0 #009688, 0 0 0 #009688; }
   50% {
     box-shadow: 0 -8px 0 #009688, 0 8px 0 #009688; } }
+    
+
+/* Fill Circle */
+.fill-circle {
+    border-radius: 50%;
+    border: 8px solid #000;
+    z-index: 1;
+    position: absolute;
+    background: transparent;
+    animation: fill-circle 4s cubic-bezier(1, 0, 0, 1) infinite;
+}
+
+@keyframes fill-circle {
+    0%, 100% {
+        border-color: #FF5722;
+    }
+
+    50%{
+        border-color: #4CAF50;
+    }
+}
+
+.fill-circle span {
+    position: absolute;
+    border: 5px solid #000;
+    background: #000;
+    border-right: transparent;
+    border-left: transparent;
+    border-bottom: transparent;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    height: 0%;
+    animation: inner-circle-fill 4s cubic-bezier(1, 0, 0, 1) infinite;
+    z-index: -99999;
+    animation-delay: 1ms;
+}
+
+@keyframes inner-circle-fill {
+    0%, 100% {
+        height: 0%;
+        background: #FF5722;
+        border-color: #FF5722;
+    }
+
+    50%{
+        height: 100%;
+        background: #4CAF50;
+        border-color: #4CAF50;
+    }
+
+}
 
