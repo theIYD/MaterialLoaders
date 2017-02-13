@@ -144,4 +144,20 @@ having a fill of material colors.
   </div>
   ```
   
+##### Flip-board
+```html
+  <div class="mloader flip-board">
+  </div>
+  ```
+  
+##### Google Loader
+```html
+  <div class="mloader google">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+  ```
+  
  * Lastly, enjoy the loaders and spinners. As a token of appreciation, a **star** to this repository will help me to bring you more libraries.
