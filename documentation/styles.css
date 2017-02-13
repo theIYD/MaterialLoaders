@@ -146,6 +146,7 @@ a{
     position: relative;
     overflow: hidden;
     box-shadow: 1px 0.5px 7px 1px #000;
+    cursor: default;
 }
 
 hr{
