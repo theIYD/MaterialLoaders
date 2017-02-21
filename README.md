@@ -3,7 +3,6 @@
 Material Loaders is a small library which contains loaders and spinners which act as small elements of a professional website 
 having a fill of material colors. 
 
-[![GitHub forks](https://img.shields.io/github/forks/badges/shields.svg?style=social&label=Fork)](https://github.com/smartagent47/MaterialLoaders) [![GitHub stars](https://img.shields.io/github/stars/badges/shields.svg?style=social&label=Star)](https://github.com/smartagent47/MaterialLoaders) [![GitHub followers](https://img.shields.io/github/followers/espadrine.svg?style=social&label=Follow)](https://github.com/smartagent47/MaterialLoaders)
 ### Usage 
 
 * Include the **MLoaders.css** or the minified version in `<head>` tag.
