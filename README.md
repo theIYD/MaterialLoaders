@@ -1,3 +1,5 @@
+![Image](/art/poster-github.png)
+
 # Material Loaders
 
 Material Loaders is a small library which contains loaders and spinners which act as small elements of a professional website 
