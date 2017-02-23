@@ -1,8 +1,7 @@
 # Material Loaders
 
- Material Loaders is a small library which contains loaders and spinners which act as small elements of a professional website 
+Material Loaders is a small library which contains loaders and spinners which act as small elements of a professional website 
 having a fill of material colors. 
-
 
 ### Usage 
 
