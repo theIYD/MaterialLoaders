@@ -15,7 +15,7 @@ having a fill of material colors.
   </head>
   ```
   
-* Secondly, include any one class from the following :- 
+* Secondly, include the main class 'mloader' and any one class from the following mentioned classes :- 
   
   
 ##### Bouncy 
