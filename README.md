@@ -28,7 +28,7 @@ having a fill of material colors.
   ```
 ##### Circle
   ```html
-  <div class="mloader c-red-500"></div>
+  <div class="mloader circle c-red-500"></div>
   ```
   * Classes of circle are :- 
     `c-red-500`
@@ -59,14 +59,14 @@ having a fill of material colors.
     
 ##### Spin Circle
   ```html
-  <div class="mloader fancy-circle">
+  <div class="mloader spin-circle">
     <span></span>
     <span></span>
   </div>
   ```
 ##### Ring
   ```html
-  <div class="mloader r-red-500"></div>
+  <div class="mloader ring r-red-500"></div>
   ```
   
   * Classes of circle are :- 
@@ -93,7 +93,7 @@ having a fill of material colors.
     
 ##### Square
   ```html
-  <div class="mloader s-red-500">
+  <div class="mloader square s-red-500">
     <div class="square-inside"></div>
   </div>
   ```
@@ -172,7 +172,7 @@ having a fill of material colors.
     you may not use this file except in compliance with the License.
     You may obtain a copy of the License at
 
-      http://www.apache.org/licenses/LICENSE-2.0
+    http://www.apache.org/licenses/LICENSE-2.0
 
     Unless required by applicable law or agreed to in writing, software
     distributed under the License is distributed on an "AS IS" BASIS,
