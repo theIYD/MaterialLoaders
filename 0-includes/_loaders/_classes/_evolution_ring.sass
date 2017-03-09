@@ -1,0 +1,22 @@
+.e-ring
+    width: 45px
+    height: 45px
+    border: 4px solid #0052ec
+    border-radius: 50%
+    position: relative
+    animation: e-ring-scale 1s ease-out infinite
+    margin: auto
+    position: relative
+
+@keyframes e-ring-scale
+    0%
+       transform: scale(0)
+       opacity: 0
+
+    50%
+       opacity: 1
+
+    100%
+       transform: scale(1)
+       opacity: 0
+       border-color: #ffeb3b
