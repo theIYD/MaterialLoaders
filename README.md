@@ -1,5 +1,7 @@
 ![Image](/art/poster-github.png)
 
+[![GitHub stars](https://img.shields.io/github/stars/smartagent47/MaterialLoaders.svg)](https://github.com/smartagent47/MaterialLoaders/stargazers) [![GitHub forks](https://img.shields.io/github/forks/smartagent47/MaterialLoaders.svg)](https://github.com/smartagent47/MaterialLoaders/network) [![GitHub issues](https://img.shields.io/github/issues/smartagent47/MaterialLoaders.svg)](https://github.com/smartagent47/MaterialLoaders/issues) [![GitHub license](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://raw.githubusercontent.com/smartagent47/MaterialLoaders/master/LICENSE)
+
 # Material Loaders
 
 Material Loaders is a small library which contains loaders and spinners which act as small elements of a professional website 
