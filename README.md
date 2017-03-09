@@ -5,6 +5,12 @@
 Material Loaders is a small library which contains loaders and spinners which act as small elements of a professional website 
 having a fill of material colors. 
 
+
+### How to implement a loader ?
+
+I have found a great resource. Go <a href="https://www.w3schools.com/howto/howto_css_loader.asp">here.</a> Follow the instructions over there
+
+
 ### Usage 
 
 * Include the **MLoaders.css** or the minified version in `<head>` tag.
