@@ -1,0 +1,40 @@
+/* Fill Circle */
+.fill-circle
+  border-radius: 50%
+  border: 12px solid $black
+  z-index: 1
+  position: absolute
+  background: transparent
+  animation: fill-circle 4s cubic-bezier(1, 0, 0, 1) infinite
+
+  span
+    position: absolute
+    border: 5px solid $black
+    background: $black
+    border-right: transparent
+    border-left: transparent
+    border-bottom: transparent
+    width: 100%
+    left: 0
+    bottom: 0
+    height: 0%
+    animation: inner-circle-fill 4s cubic-bezier(1, 0, 0, 1) infinite
+    z-index: -99999
+    animation-delay: 1ms
+
+@keyframes fill-circle
+    0%, 100%
+      border-color: $orange-500
+    50%
+      border-color: $green-500
+
+@keyframes inner-circle-fill
+    0%, 100%
+        height: 0%
+        background: $orange-500
+        border-color: $orange-500
+
+    50%
+        height: 100%
+        background: $green-500
+        border-color: $green-500
