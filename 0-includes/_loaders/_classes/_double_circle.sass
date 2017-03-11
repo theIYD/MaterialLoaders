@@ -1,0 +1,19 @@
+.double-circle
+  border-radius: 50%
+  border: 0.25rem solid #eee
+  border-top-color: $blue-500
+  animation: spin-circle 1s infinite linear
+  border-style: double
+  border-width: .5rem
+
+@keyframes spin-circle
+  0%
+    transform: rotate(0deg)
+    border-top-color: $blue-500
+
+  50%
+    transform: rotate(180deg)
+    border-top-color: $red-500
+  100%
+    transform: rotate(360deg)
+    border-top-color: $blue-500
