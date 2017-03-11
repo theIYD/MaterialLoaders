@@ -1,0 +1,29 @@
+.four-color:before, .four-color:after
+  position: absolute
+  top: 50%
+  left: 50%
+  border-radius: 50%
+  border-style: solid
+  border-top-color: $blue-500
+  border-right-color: $red-500
+  border-bottom-color: $green-500
+  border-left-color: $amber-500
+  content: ''
+  transform: translate(-50%, -50%)
+  animation: spin 1.5s  infinite ease-in-out
+
+.four-color:before
+  border-width: 2vh
+
+.four-color:after
+  width: 6vh
+  height: 6vh
+  border-width: 0.4vh
+  animation-direction: alternate-reverse
+
+@keyframes spin
+  0%
+    transform: translate(-50%, -50%) rotate(0)
+
+  100%
+    transform: translate(-50%, -50%) rotate(360deg)

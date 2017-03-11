@@ -884,4 +884,39 @@
     left: 100%;
     background-color: #2196f3; } }
 
+.four-color:before, .four-color:after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  border-style: solid;
+  border-top-color: #2196f3;
+  border-right-color: #f44336;
+  border-bottom-color: #4caf50;
+  border-left-color: #ffc107;
+  content: '';
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-animation: spin 1.5s  infinite ease-in-out;
+  animation: spin 1.5s  infinite ease-in-out; }
+
+.four-color:before {
+  border-width: 2vh; }
+
+.four-color:after {
+  width: 6vh;
+  height: 6vh;
+  border-width: 0.4vh;
+  -webkit-animation-direction: alternate-reverse;
+  animation-direction: alternate-reverse; }
+
+@keyframes spin {
+  0% {
+    -webkit-transform: translate(-50%, -50%) rotate(0);
+    transform: translate(-50%, -50%) rotate(0); }
+  100% {
+    -webkit-transform: translate(-50%, -50%) rotate(360deg);
+    transform: translate(-50%, -50%) rotate(360deg); } }
+
 /*# sourceMappingURL=mloaders.css.map */
