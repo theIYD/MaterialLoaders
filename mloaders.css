@@ -818,4 +818,70 @@
     transform: rotate(360deg);
     border-top-color: #2196f3; } }
 
+.bar {
+  height: 4px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  background-color: #eee;
+  border-radius: 20px; }
+
+.bar:before {
+  display: block;
+  position: absolute;
+  content: "";
+  left: -200px;
+  width: 200px;
+  height: 4px;
+  background-color: #2196f3;
+  border-radius: 20px;
+  -webkit-animation: bar 2s linear infinite;
+  animation: bar 2s linear infinite; }
+
+@-webkit-keyframes bar {
+  0% {
+    left: -200px;
+    width: 30%;
+    background-color: #2196f3; }
+  50% {
+    width: 30%;
+    background-color: #f44336; }
+  70% {
+    width: 70%;
+    background-color: #009688; }
+  80% {
+    left: 50%;
+    background-color: #ffc107; }
+  95% {
+    left: 120%;
+    background-color: #ff9800; }
+  100% {
+    left: 100%;
+    background-color: #2196f3; } }
+
+@keyframes bar {
+  0% {
+    left: -200px;
+    width: 30%;
+    background-color: #2196f3; }
+  50% {
+    width: 30%;
+    background-color: #f44336; }
+  70% {
+    width: 70%;
+    background-color: #009688; }
+  80% {
+    left: 50%;
+    background-color: #ffc107; }
+  95% {
+    left: 120%;
+    background-color: #ff9800; }
+  100% {
+    left: 100%;
+    background-color: #2196f3; } }
+
 /*# sourceMappingURL=mloaders.css.map */

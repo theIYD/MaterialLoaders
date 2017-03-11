@@ -1,0 +1,43 @@
+.bar
+  height: 4px
+  width: 100%
+  position: absolute
+  top: 0
+  left: 0
+  right: 0
+  bottom: 0
+  overflow: hidden
+  background-color: #eee
+  border-radius: 20px
+
+.bar:before
+  display: block
+  position: absolute
+  content: ""
+  left: -200px
+  width: 200px
+  height: 4px
+  background-color: $blue-500
+  border-radius: 20px
+  animation: bar 2s linear infinite
+
+@keyframes bar
+  0%
+    left: -200px
+    width: 30%
+    background-color: $blue-500
+  50%
+    width: 30%
+    background-color: $red-500
+  70%
+    width: 70%
+    background-color: $teal-500
+  80%
+    left: 50%
+    background-color: $amber-500
+  95%
+    left: 120%
+    background-color: $orange-500
+  100%
+    left: 100%
+    background-color: $blue-500
