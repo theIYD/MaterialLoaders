@@ -980,4 +980,35 @@
   60% {
     opacity: 1; } }
 
+.oscillate {
+  position: absolute;
+  box-sizing: border-box;
+  top: 50;
+  margin-top: -10px;
+  border-radius: 16px;
+  width: 80px;
+  height: 20px;
+  padding: 4px;
+  background: #eee; }
+  .oscillate:before {
+    content: '';
+    position: absolute;
+    border-radius: 16px;
+    width: 20px;
+    height: 12px;
+    left: 0;
+    background: #000000;
+    -webkit-animation: oscillate 1s infinite linear;
+    animation: oscillate 1s infinite linear; }
+
+@-webkit-keyframes oscillate {
+  50% {
+    left: 56px;
+    background: #000000; } }
+
+@keyframes oscillate {
+  50% {
+    left: 56px;
+    background: #000000; } }
+
 /*# sourceMappingURL=mloaders.css.map */
