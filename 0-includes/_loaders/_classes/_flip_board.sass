@@ -1,0 +1,18 @@
+/* Flip Board*/
+.flip-board
+  background: #FF5722
+  animation: flip-board 1.2s infinite ease-in-out
+
+
+@keyframes flip-board
+  0%
+    transform: perspective(120px) rotateX(0deg) rotateY(0deg)
+    background: #FF5722
+
+  50%
+    transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg)
+    background: #FF9800
+
+  100%
+    transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg)
+    background: #FF5722

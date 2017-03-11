@@ -1,9 +1,17 @@
 ![Image](/art/poster-github.png)
 
+[![GitHub stars](https://img.shields.io/github/stars/smartagent47/MaterialLoaders.svg)](https://github.com/smartagent47/MaterialLoaders/stargazers) [![GitHub forks](https://img.shields.io/github/forks/smartagent47/MaterialLoaders.svg)](https://github.com/smartagent47/MaterialLoaders/network) [![GitHub issues](https://img.shields.io/github/issues/smartagent47/MaterialLoaders.svg)](https://github.com/smartagent47/MaterialLoaders/issues) [![GitHub license](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://raw.githubusercontent.com/smartagent47/MaterialLoaders/master/LICENSE)
+
 # Material Loaders
 
 Material Loaders is a small library which contains loaders and spinners which act as small elements of a professional website 
 having a fill of material colors. 
+
+
+### How to implement a loader ?
+
+I have found a great resource. Go <a href="https://www.w3schools.com/howto/howto_css_loader.asp">here.</a> Follow the instructions over there
+
 
 ### Usage 
 
@@ -28,7 +36,7 @@ having a fill of material colors.
   ```
 ##### Circle
   ```html
-  <div class="mloader c-red-500"></div>
+  <div class="mloader circle c-red-500"></div>
   ```
   * Classes of circle are :- 
     `c-red-500`
@@ -59,14 +67,14 @@ having a fill of material colors.
     
 ##### Spin Circle
   ```html
-  <div class="mloader fancy-circle">
+  <div class="mloader spin-circle">
     <span></span>
     <span></span>
   </div>
   ```
 ##### Ring
   ```html
-  <div class="mloader r-red-500"></div>
+  <div class="mloader ring r-red-500"></div>
   ```
   
   * Classes of circle are :- 
@@ -93,7 +101,7 @@ having a fill of material colors.
     
 ##### Square
   ```html
-  <div class="mloader s-red-500">
+  <div class="mloader square s-red-500">
     <div class="square-inside"></div>
   </div>
   ```
@@ -172,7 +180,7 @@ having a fill of material colors.
     you may not use this file except in compliance with the License.
     You may obtain a copy of the License at
 
-      http://www.apache.org/licenses/LICENSE-2.0
+    http://www.apache.org/licenses/LICENSE-2.0
 
     Unless required by applicable law or agreed to in writing, software
     distributed under the License is distributed on an "AS IS" BASIS,

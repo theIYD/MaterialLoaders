@@ -1,0 +1,57 @@
+/* Timer */
+.timer
+  border-radius: 50%
+  border-top: solid 6px $light-blue-500
+  border-bottom: solid 6px $light-blue-500
+  border-left: solid 6px $light-blue-500
+  border-right: solid 6px $light-blue-500
+  display: inline-block
+  box-sizing: border-box
+  animation: timer 1.5s linear infinite
+
+  &:before
+    border-radius: 3px
+    content: " "
+    width: 6px
+    height: 12px
+    display: inline-block
+    box-sizing: border-box
+    background-color: $blue-400
+    position: absolute
+    top: 5px
+    left: 16px
+    transform-origin: center bottom
+    animation: timer-before 1s ease infinite
+
+@keyframes timer
+  0%, 100%
+    border-top: solid 6px $light-blue-500
+    border-bottom: solid 6px $light-blue-500
+    border-left: solid 6px $light-blue-500
+    border-right: solid 6px $light-blue-500
+
+  25%
+    border-top: solid 6px $light-green-500
+    border-bottom: solid 6px $light-green-500
+    border-left: solid 6px $light-green-500
+    border-right: solid 6px $light-green-500
+
+  50%
+    border-top: solid 6px $yellow-500
+    border-bottom: solid 6px $yellow-500
+    border-left: solid 6px $yellow-500
+    border-right: solid 6px $yellow-500
+
+  75%
+    border-top: solid 6px $red-500
+    border-bottom: solid 6px $red-500
+    border-left: solid 6px $red-500
+    border-right: solid 6px $red-500
+
+
+@keyframes timer-before
+  0%
+    transform: rotate(-45deg)
+
+  100%
+    transform: rotate(315deg)

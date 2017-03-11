@@ -1,0 +1,35 @@
+/* Fancy Circle */
+.spin-circle
+  position: fixed
+  top: 0
+  bottom: 0
+  left: 0
+  right: 0
+  margin: auto
+
+  span
+    height: 48px
+    width: 48px
+    display: block
+    position: absolute
+    top: 0
+    left: 0
+    border-radius: 100%
+    border: 4px solid transparent
+    opacity: 0.5
+    box-sizing: border-box
+
+    &:nth-child(1)
+      border-top-color: $red-500
+      animation: rotation 1s ease-in-out infinite
+
+    &:nth-child(2)
+      border-bottom-color: $black
+      animation: rotation 1s ease-in-out infinite
+
+@keyframes rotation
+    0%
+      transform: rotate(0deg)
+
+    100%
+      transform: rotate(360deg)
