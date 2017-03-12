@@ -1,0 +1,25 @@
+.line
+  position: absolute
+  top: 50%
+  margin-left: 10px
+  width: 60px
+  height: 4px
+  background: $red-500
+  animation: spin 1.5s infinite ease
+  border-radius: 20px
+
+  &:nth-of-type(2)
+    animation-delay: 0.1s
+    background: $blue-500
+
+  &:nth-of-type(3)
+    animation-delay: 0.2s
+    background: $green-500
+
+  &:nth-of-type(4)
+    animation-delay: 0.3s
+    background: $yellow-500
+
+@keyframes spin
+  100%
+    transform: rotate(360deg)

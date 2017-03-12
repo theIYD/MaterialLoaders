@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 /* Copyright 2017 Idrees Dargahwala
   Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License. You may obtain a copy of the License at
@@ -6,7 +8,7 @@
   software distributed under the License is distributed on an "AS IS" BASIS,
   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
   See the License for the specific language governing permissions and limitations under the License. */
-
+>>>>>>> development
 .mloader {
   width: 45px;
   height: 45px;
@@ -781,6 +783,8 @@
   100% {
     -webkit-transform: rotate(315deg);
     transform: rotate(315deg); } }
+<<<<<<< HEAD
+=======
 
 .double-circle {
   border-radius: 50%;
@@ -1063,5 +1067,6 @@
     -webkit-transform: translate(-40px, 40px) rotate(45deg);
     transform: translate(-40px, 40px) rotate(45deg);
     background-color: #f44336; } }
+>>>>>>> development
 
 /*# sourceMappingURL=mloaders.css.map */

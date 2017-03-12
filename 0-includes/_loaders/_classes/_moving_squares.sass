@@ -1,0 +1,30 @@
+.moving-square:before, .moving-square:after
+  content: ""
+  width: 20px
+  height: 20px
+  position: absolute
+  top: 0
+  left: calc(50% - 10px)
+  background-color: $blue-500
+  animation: squaremove 1s ease-in-out infinite
+
+.moving-square:after
+  bottom: 0
+  animation-delay: 0.5s
+
+@keyframes squaremove
+  0%, 100%
+    transform: translate(0,0) rotate(0)
+    background-color: $blue-500
+
+  25%
+    transform: translate(40px,40px) rotate(45deg)
+    background-color: $green-500
+
+  50%
+    transform: translate(0px,80px) rotate(0deg)
+    background-color: $amber-500
+
+  75%
+    transform: translate(-40px,40px) rotate(45deg)
+    background-color: $red-500
