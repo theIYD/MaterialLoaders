@@ -168,8 +168,54 @@ I have found a great resource. Go <a href="https://www.w3schools.com/howto/howto
     <div></div>
   </div>
   ```
+##### Double-Circle
+```html
+  <div class="mloader double-circle"></div>
+```
+
+##### Bar
+```html
+  <div class="bar"></div>
+```
+
+##### Spin Wheel
+```html
+  <div class="four-color"></div>
+```
+
+##### Lines 
+```html
+  <div class="line"></div>
+  <div class="line"></div>
+  <div class="line"></div>
+  <div class="line"></div>
+ ```
+
+##### Flying Dots
+```html
+  <div class="flying-dots">
+       <span></span>
+       <span></span>
+       <span></span>
+  </div>
+ ```
+ 
+##### Oscillation
+```html
+  <div class="oscillate"></div>
+```
+
+##### Moving Squares
+```html
+  <div class="moving-square"></div>
+```
+
+### :bulb: Tip
+
+It is recommended to wrap the loader or the spinner div with another div so that you could center the wrapper div horizontally and vertically. 
+
   
- * Lastly, enjoy the loaders and spinners. As a token of appreciation, a **star** to this repository will help me to bring you more libraries.
+ * Lastly, enjoy the loaders and spinners. As a token of appreciation, a **star** to this repository will help me to bring you more libraries in near future.
 
 
  ### License
