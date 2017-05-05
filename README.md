@@ -1,6 +1,6 @@
 ![Image](/art/poster-github.png)
 
-[![GitHub stars](https://img.shields.io/github/stars/smartagent47/MaterialLoaders.svg)](https://github.com/smartagent47/MaterialLoaders/stargazers) [![GitHub forks](https://img.shields.io/github/forks/smartagent47/MaterialLoaders.svg)](https://github.com/smartagent47/MaterialLoaders/network) [![GitHub issues](https://img.shields.io/github/issues/smartagent47/MaterialLoaders.svg)](https://github.com/smartagent47/MaterialLoaders/issues) [![GitHub license](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://raw.githubusercontent.com/smartagent47/MaterialLoaders/master/LICENSE)
+[![GitHub forks](https://img.shields.io/github/forks/theIYD/MaterialLoaders.svg)](https://github.com/theIYD/MaterialLoaders/network) [![GitHub issues](https://img.shields.io/github/issues/theIYD/MaterialLoaders.svg)](https://github.com/theIYD/MaterialLoaders/issues) [![GitHub stars](https://img.shields.io/github/stars/theIYD/MaterialLoaders.svg)](https://github.com/theIYD/MaterialLoaders/stargazers) [![GitHub license](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://raw.githubusercontent.com/theIYD/MaterialLoaders/master/LICENSE) [![Twitter](https://img.shields.io/twitter/url/https/github.com/theIYD/MaterialLoaders.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=%5Bobject%20Object%5D)
 
 # Material Loaders
 
